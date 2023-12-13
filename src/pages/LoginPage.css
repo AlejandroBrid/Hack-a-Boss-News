@@ -1,0 +1,22 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container input {
+  margin-bottom: 10px;
+}
+section.login {
+  border: solid 2px white;
+  width: 300px;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+main.login {
+  display: flex;
+
+  align-items: center;
+}
+button.login {
+  margin-bottom: 30px;
+}

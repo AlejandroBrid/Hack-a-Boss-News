@@ -1,0 +1,257 @@
+.nav-bar {
+  width: 200px;
+  padding: 1px;
+  position: fixed;
+  background-color: #0f0f0f;
+}
+.nav-bar button {
+  font-size: 1em;
+}
+.news-container {
+  background-color: #0f0f0f;
+  color: rgb(255, 255, 255);
+}
+.news-container {
+  padding: 10px;
+}
+#root > main > main > div > main > section.weather {
+  margin-top: 150px;
+  right: 40px;
+  position: fixed;
+  width: 10%;
+}
+section.news-list > div > form {
+  color: white;
+}
+.section.news-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.li.news-container {
+  background-color: #0f0f0f;
+}
+ul {
+  list-style: none;
+  margin-top: 0px;
+  padding: 10px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.news-list {
+  flex: 1;
+  padding: 0px;
+  margin-top: 50px;
+}
+.news-item {
+  border: 1px solid #292929;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin-bottom: 10px;
+  background-color: #292929;
+  border-radius: 10px;
+  box-shadow: 16px 14px 20px black;
+}
+.news-item button {
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+.news-item button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+.button-create-news {
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 28px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.button-create-news:hover {
+  background-color: #0056b3;
+}
+fieldset {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input.search-bar,
+input#title,
+input#intro {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.publicar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 28px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+#root > main > main > div > main > section.nav-bar > div > input[type="text"] {
+  width: 100px;
+}
+.mobile-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li.news-item {
+  width: 70%;
+}
+section.news-text h2:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1401px) {
+  section.news-text h2 {
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+  }
+  section.news-text h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  button.acordeon {
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    margin-top: 5px;
+    left: 0;
+  }
+  div.no-create-news {
+    height: 60px;
+    width: 70vw;
+  }
+  section.navBar {
+    margin-top: 40px;
+    display: flex;
+    background-color: rgba(81, 70, 70, 0.65);
+    flex-direction: column;
+    padding: 0;
+    position: fixed;
+    width: 140px;
+    left: 10px;
+    border-radius: 5px;
+  }
+  #root
+    > main
+    > main
+    > div
+    > main
+    > section.news-list
+    > div
+    > section
+    > section:nth-child(1)
+    > section
+    > section
+    > button {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  section.news-list {
+    margin: 0px;
+  }
+  li.news-item {
+    margin: 0px;
+    margin-bottom: 5px;
+    width: 95vw;
+  }
+  ul {
+    margin: 0;
+  }
+  div.mobile-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  section.navBar {
+    margin-top: 40px;
+    background-color: rgba(81, 70, 70, 0.75);
+    z-index: 1000;
+  }
+  section.nav-bar-mobile {
+    display: flex;
+  }
+  button.acordeon {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    margin-top: 10px;
+  }
+  input[type="text"].search-bar,
+  select {
+    width: 70%;
+    height: 7px;
+  }
+  li.news-item {
+    padding: 0;
+  }
+
+  #root
+    > main
+    > main
+    > div
+    > main
+    > section.news-list
+    > div
+    > section
+    > section:nth-child(1)
+    > section {
+    position: absolute;
+  }
+  #root > main > main > div > main > section.weather {
+    margin: 0;
+    top: 65px;
+    right: 8px;
+    width: 70px;
+  }
+  #root
+    > main
+    > main
+    > div
+    > main
+    > section.weather
+    > div.weather-container
+    > p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
